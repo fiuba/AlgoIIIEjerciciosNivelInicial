@@ -1,7 +1,23 @@
 # Ejercicios de Nivel Inicial 
 
-## Almacen
+### Venta de items
 
-Un almacen vende ítems cada uno de estos ítems tiene un costo y un precio de venta.  Se busca saber cuál es el margen de ganancia (precio - costo) para un ítem o un conjunto de estos. Tener en cuenta los siguientes escenarios:
-- El dueño del comercio puede, a los efectos de aumentar sus márgenes de ganancia, comprar los items al pormayor en cuyo caso el costo del ítem será el costo devidido la cantidad de items que haya hecho en la compra.
-- El mismo dueño puede crear promociones donde venderá n items a un precio fijo (2 por 10 o 3 por 1). 
+El objetivo de este dojo es implementar parcialmente el modelo precios y costos para compra/venta de items con el fin de poder calcular un márgen de ganancia.
+
+Existen varios esquemas de precios de ventas:
+- N unidades por un dolar.
+- $ M por peso.
+- Compra dos paga 1.
+- Uno sorpresa (vemos si llegamos)
+
+Existen varios esquemas de precios de compra:
+- $ M por peso.
+- $ M por N unidades.
+
+
+La funcionalidad que buscamos implementar **no** cuenta con pruebas y se busca que decidamos que pruebas deberíamos escribir, ya sean de integración o de unidad.
+
+### Metodología
+
+Programación orientada a objetos + TDD
+
